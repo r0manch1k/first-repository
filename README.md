@@ -1,7 +1,7 @@
 # How to work with GitHub
 
 
-## First
+## First Step
 
 
 1. Go to your directory using **_cd_** _your directory_
@@ -39,22 +39,25 @@ git commit -m 'Mark1'
 ```
 
 
-  * You can check your _log_ using **_git log_**
-  
-  
-  ```
-  git log
-  ```
-
-
-### Second
+   * You can check your _log_ using **_git log_**
+   
+   
+   ```
+   git log
+   ```
+ 
+ 
+### Second Step
 
 
 1. Go to [GitHub](github.com)
 2. Create an account
 3. Create a new repository
 4. Create a SSH-key
+
+
    * Go to root directory
+
    
    ```
    cd ~
@@ -62,6 +65,7 @@ git commit -m 'Mark1'
    
    
    * Type **_ssh-keygen -t ed25519 -C_** _'your email'_
+
    
    ```
    ssh-keygen -t ed25519 -C ivanivanov@gmail.com
@@ -69,6 +73,7 @@ git commit -m 'Mark1'
    
    
    * Make sure you did well using **_ls -a ~/.ssh_**
+
   
    ```
    ls -a ~/.ssh
@@ -94,11 +99,11 @@ git remote add origin git@github.com:ivanov/reposytory-name.git
 ```
 
 
-  *Make sure you did well using **_git remote -v_**
-  
-  ```
-  git remote -v
-  ```
+   * Make sure you did well using **_git remote -v_**
+   
+   ```
+   git remote -v
+   ```
   
   
 8. Send your file to GitHub using **_git push -u origin main_** 
@@ -111,7 +116,7 @@ git push -u origin main
 
 ### Errors
 
-If you deal with errors just follow hints below your commands. Goodbye!
+  * If you deal with errors just follow hints below your commands. Good luck!
 
 
 
