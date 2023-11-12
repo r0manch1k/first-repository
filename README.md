@@ -117,6 +117,11 @@ git push -u origin main
 ### Errors
 
   * If you deal with errors just follow hints below your commands. Good luck!
+  
+
+  ```
+  git pull --rebase origin main
+  ```
 
 
 
