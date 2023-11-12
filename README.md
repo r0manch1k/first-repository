@@ -54,25 +54,25 @@ git commit -m 'Mark1'
 2. Create an account
 3. Create a new repository
 4. Create a SSH-key
-  1. Go to root directory
+   * Go to root directory
+   
+   ```
+   cd ~
+   ```
+   
+   
+   * Type **_ssh-keygen -t ed25519 -C_** _'your email'_
+   
+   ```
+   ssh-keygen -t ed25519 -C ivanivanov@gmail.com
+   ```
+   
+   
+   * Make sure you did well using **_ls -a ~/.ssh_**
   
-  ```
-  cd ~
-  ```
-  
-  
-  2. Type **_ssh-keygen -t ed25519 -C_** _'your email'_
-  
-  ```
-  ssh-keygen -t ed25519 -C ivanivanov@gmail.com
-  ```
-  
-  
-  3. Make sure you did well using **_ls -a ~/.ssh_**
-  
-  ```
-  ls -a ~/.ssh
-  ```
+   ```
+   ls -a ~/.ssh
+   ```
   
   
 5. Type **_pbcopy < ~/.ssh/id_ed25519.pub_** to copy text in the file
